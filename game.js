@@ -3,6 +3,8 @@ snakeIntersection} from "./snake.js"
 import {update as updateFood, draw as drawFood} from "./food.js"
 import { outSide } from "./grid.js";
 
+
+
 const gameBoard=document.getElementById('game-board')
 let lastRenderTime=0;
 let gameOver=false;
